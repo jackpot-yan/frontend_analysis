@@ -1,14 +1,18 @@
 <template>
-  <div id="home">
-    <el-button type="danger">测试</el-button>
-  </div>
+    <router-view></router-view>
 </template>
 <script setup lang="ts">
 
 </script>
-<style scoped>
-#home {
-  display: flex;
-  flex-direction: row;
+<style>
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>
